@@ -7,11 +7,11 @@ For run these examples, you should install [RabbitMQ](https://www.rabbitmq.com/d
     $ rabbitmq-server
 
 
-Open another tab and type:
+Open another tab in terminal and type:
 
     $ ruby topic_consumer.rb 'consumer.first'
 
-Open one more tab and type:
+Open one more tab in terminal and type:
 
     $ ruby topic_publisher.rb 'consumer.first' 'Hello World!'
 
